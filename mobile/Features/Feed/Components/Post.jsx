@@ -11,7 +11,6 @@ export default function Post({ username, body }) {
 }
 
 Post.propTypes = {
-  id: PropTypes.number.isRequired,
   username: PropTypes.string.isRequired,
   body: PropTypes.string.isRequired,
 };
